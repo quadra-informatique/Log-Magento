@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * 1997-2012 Quadra Informatique
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0) that is available
+ * through the world-wide-web at this URL: http://www.opensource.org/licenses/OSL-3.0
+ * If you are unable to obtain it through the world-wide-web, please send an email
+ * to ecommerce@quadra-informatique.fr so we can send you a copy immediately.
+ *
+ *  @author Quadra Informatique <ecommerce@quadra-informatique.fr>
+ *  @copyright 1997-2013 Quadra Informatique
+ *  @version Release: $Revision: 1.0.1 $
+ *  @license http://www.opensource.org/licenses/OSL-3.0  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <sections>
+        <dev>
+            <groups>
+                <log>
+                    <fields>
+                        <level_filter translate="label comment">
+                            <label>Niveau de Filtrage des Logs</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>core/source_loglevelfilter</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Tout les messages d'un niveau moins important ne sont pas ecrits</comment>
+                        </level_filter>
+                    </fields>
+                </log>
+            </groups>
+        </dev>
+    </sections>
+</config>
