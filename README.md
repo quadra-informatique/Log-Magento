@@ -6,6 +6,8 @@ This magento module allow to filter the log level in magento
 
 The log level filter can be managed from the back office
 
+[Download the User Manual][3] *(french)*
+
 ## Disclamer
 
 Per to the OSL 3 License, the Original Work is provided under this License on an "AS IS" BASIS and WITHOUT WARRANTY, either express or implied, including, without limitation, the warranties of non-infringement, merchantability or fitness for a particular purpose. THE ENTIRE RISK AS TO THE QUALITY OF THE ORIGINAL WORK IS WITH YOU. This DISCLAIMER OF WARRANTY constitutes an essential part of this License. No license to the Original Work is granted by this License except under this disclaimer.
@@ -39,3 +41,4 @@ That's it: you have contributed to this open-source project! Congratulations!
 
 [1]: http://devdocs.magento.com/guides/v2.0/coding-standards/code-standard-php.html
 [2]: https://help.github.com/articles/using-pull-requests
+[3]: http://shop.quadra-informatique.fr/?controller=attachment&id_attachment=4
